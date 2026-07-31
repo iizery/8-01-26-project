@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>8/1 Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <section id="cover" class="screen">
+                <p class="project-label">HCI PROJECT</p>
+
+                <h1>Interactive Web-Based Multimedia Presentation</h1>
+
+                <p class="description">This project is under development and must be treated as such.</p>
+
+                <div class="project-info">
+                    <p>Status: In Progress</p>
+                    <p>Version: 2.1</p>
+                </div>
+
+                <button id="proceedButton">Proceed</button>
+            </section>
+
+            <section id="loading" class="screen">
+                <div class="loading-container">
+                    <div class="spinner"></div>
+
+                    <h2>Initializing Project</h2>
+
+                    <p id="loadingText">Preparing presentation...</p>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="reveal" class="screen">
+                <p class="reveal-tag">SURPRISE</p>
+                <h1>Happy National Girlfriend's Day ❤️</h1>
+                <p class="reveal-text">
+                    You probably thought this was just another school project...
+                    but I made this just for you.
+                </p>
+                <button id="continueButton">Open Your Gifts</button>
+            </section>
+
+            <section id="home" class="screen">
+                <img src="images/banner.png" alt="Banner" class="home-banner">
+                
+                <div class="home-message">
+                    <h2>🌷 Open your gifts! 🌷</h2>
+                    <p>Hint: Memories first, Letter last :D</p>
+                </div>
+                <button id="gift1Button" class="gift-button">📸 Memories</button>
+                <button id="gift2Button" class="gift-button">💌 A Letter</button>
+            </section>
+
+            <section id="photos" class="screen">
+                <span class="decoration sparkle sparkle-1">✦</span>
+                <span class="decoration sparkle sparkle-2">✧</span>
+                <span class="decoration sparkle sparkle-3">✦</span>
+                <span class="decoration heart heart-1">♥</span>
+                <span class="decoration heart heart-2">♥</span>
+
+                <button id="backFromPhotos" class="back-photos-button">← Back</button>
+
+                <h2>Our Memories</h2>
+
+                <div class="memory-container">
+                    <div class="photo-card photo-1">
+                        <img src="images/photo1.png" alt="">
+                    </div>
+
+                    <div class="photo-card photo-2">
+                        <img src="images/photo2.png" alt="">
+                    </div>
+
+                    <div class="photo-card photo-3">
+                        <img src="images/photo3.png" alt="">
+                    </div>
+
+                    <div class="photo-card photo-4">
+                        <img src="images/photo4.png" alt="">
+                    </div>
+                </div>
+                
+            </section>
+
+            <section id="letter" class="screen">
+                <button id="backFromLetter" class="back-letter-button">← Back</button>
+                <div class="letter-paper">
+                    <span class="letter-decoration letter-heart">♥</span>
+                    <span class="letter-decoration letter-sparkle">✦</span>
+                    <h2>To My Dearest Ren</h2>
+                    <p>
+                        Let me start this letter by telling you I love you.
+                        Ever since I met you, you've brought color into my life.
+                        You have been making me laugh, smile, and you have been protecting me since we were friends.
+                        Without you, I don't think I'll be half the man I am today.
+                        I'm a man of short words, so I can't really put everything that I want to say in this short letter,
+                        but please know that for every day that I wake up, I am grateful to have you as my friend, my soulmate, and my lover.
+                        For all the troubles I've caused, all the stress I gave you, I am sorry.
+                        I promise you that every day is a progress for me, a step forward to become the better man that can stand with you.
+                        You are my one and only.
+                    </p>
+                    <p>
+                        Thank you for completing me, mon coeur.
+                    </p>
+                    <p class="signature">
+                        - inchan
+                    </p>
+                </div>
+            </section>
+
+            <section id="close" class="screen">
+                <div class="closing-card">
+                    <h1>Thank you, mon coeur.</h1>
+                    <p>
+                        I hope na enjoy mo itong little gift of mine.
+                        I know it looks bad and it is because it's rushed haha.
+                        But please know that every bit of this gift is sincere and genuine.
+                    </p>
+
+                    <p>
+                        Happy National Girlfriend's Day ulit!
+                    </p>
+
+                    <button id="exitButton" class="closeButton">Close</button>
+                </div>
+            </section>
+        </main>
+        <audio id="bgMusic" loop>
+            <source src="bgm/song.mp3">
+        </audio>
+        <script src="script.js"></script>
+    </body>
+</html>
