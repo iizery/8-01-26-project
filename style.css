@@ -527,8 +527,8 @@ h1 {
 }
 
 .closeButton {
-    width: 260px;
-    padding: 15px 0;
+    width: 160px;
+    padding: 12px 0;
     border: 2px solid #c86d94;
     border-radius: 999px;
     background: #f8edf2;
